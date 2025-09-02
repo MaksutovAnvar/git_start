@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="task-input">
+            <img src="./menu.png" alt="">
+            <input type="text" placeholder="Add a new task">
+        </div>
+        <ul class="choose-elements">
+            <li class="choose-el active" id="all">All</li>
+            <li class="choose-el" id="pending">Pending</li>
+            <li class="choose-el" id="completed">Completed</li>
+            <button>Clear All</button>
+        </ul>
+        <div class="border"></div>
+        <ul class="tasks-list">
+            <li class="task">
+                <input type="checkbox" class="complete">
+                <div class="task-text">Renew gym membership</div>
+                <div class="menu">
+                    <img src="./dots.png" alt="" class="dots">
+                    <ul class="menuList">
+                        <li id="edit">Edit</li>
+                        <li id="delete">Delete</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <input type="checkbox" class="complete">
+                <div class="task-text">Renew gym membership</div>
+                <div class="menu">
+                    <img src="./dots.png" alt="" class="dots">
+                    <ul class="menuList">
+                        <li id="edit">Edit</li>
+                        <li id="delete">Delete</li>
+                    </ul>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
